@@ -90,8 +90,8 @@ function App() {
     // -----------------JSX START-----------------------------------------------
     <>
 
-      {/* <Router basename="/"> */}
-      <Router >
+      <Router basename="/text-utility">
+      {/* <Router > */}
         {/* <div className="red">Hello</div>  */}
         {/* <h2>HELLO {name}</h2> */}
 
