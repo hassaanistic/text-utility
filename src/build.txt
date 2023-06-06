@@ -1,0 +1,10 @@
+npm run build
+krny se aik build folder ban jata ha jis se ya hot aha k  apki react app 
+static ban jati ha  aap sirf buld folder ko open kr  k agr  'live server' se b open kray ga web to chal jaye gi 
+
+after that we can easily 'host' that  
+
+using optimized  npm run build
+jab ham react use krty ha or   npm run build krty hai to react hamari files ko optimize kray ga or compress kray ga  ta k user ka data kam use ho
+or apna server kkii   'bandWidth'   kam kharch ho
+
