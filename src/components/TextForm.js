@@ -57,25 +57,25 @@ export default function TextForm(props) {
           {/* <label for="myBox" className="form-label">
           Enter Text
         </label> */}
-          <button disabled={text.length===0} className="btn btn-primary my-3 mx-2" onClick={handleUpClick}>
+          <button disabled={text.length === 0} className="btn btn-primary my-3 mx-0" onClick={handleUpClick}>
             Convert to upperCase
           </button>
-          <button disabled={text.length===0}className="btn btn-primary my-3 mx-2" onClick={handleLoClick}>
+          <button disabled={text.length === 0} className="btn btn-primary my-3 mx-2" onClick={handleLoClick}>
             Convert to lowerCase
           </button>
-          <button disabled={text.length===0}
+          <button disabled={text.length === 0}
             className="btn btn-primary my-3 mx-2"
             onClick={handleClearText}
           >
             Clear text
           </button>
-          <button disabled={text.length===0}
+          <button disabled={text.length === 0}
             className="btn btn-primary my-3 mx-2"
             onClick={handleCopyText}
           >
             Copy text
           </button>
-          <button disabled={text.length===0}
+          <button disabled={text.length === 0}
             className="btn btn-primary my-3 mx-2"
             onClick={handleSpaces}
           >
